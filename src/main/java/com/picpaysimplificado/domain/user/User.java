@@ -53,7 +53,7 @@ public class User {
 	@Enumerated(EnumType.STRING)
 	private UserType userType;
 	
-	public User(){ }
+	//public User(){ }
 	
 	public User(UserDTO data) {
 		
@@ -68,6 +68,15 @@ public class User {
 	}
 	
 	
+	public User(Long id, String firstName, String lastName, String document, String email, String password, BigDecimal balance, UserType userType) {
+		
+	}
+	
+	//public User(Long l, String string, String string2, String string3, String string4, String string5, Object object,
+	//		Object object2) {
+		// TODO Auto-generated constructor stub
+	//}
+
 	public Long getId() {
 		return id;
 	}
@@ -77,11 +86,11 @@ public class User {
 		return userType;
 	}
 
-
-	public BigDecimal getBalance() {
+	//public BigDecimal getBalance() {
 		// TODO Auto-generated method stub
-		return balance;
-	}
+	//	return balance;
+	//}
+	
 	
 	
 	public String getDocument() {
@@ -128,6 +137,12 @@ public class User {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+
+	public BigDecimal getBalance() {
+		// TODO Auto-generated method stub
+		return balance;
 	}
 
 

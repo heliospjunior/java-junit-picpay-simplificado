@@ -20,7 +20,7 @@ public class TransactionController {
 	@Autowired
 	private TransactionService transactionService;
 	
-	
+	@Autowired
 	@PostMapping 
 	public ResponseEntity<Transaction> createTransaction(@RequestBody TransactionDTO transaction) throws Exception {
 	

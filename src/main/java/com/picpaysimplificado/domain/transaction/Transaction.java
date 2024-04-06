@@ -48,12 +48,12 @@ public class Transaction {
 		
 	}
 
-	public void setSender(User sender2) {
+	public void setSender(User sender) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	public void setReceiver(User receiver2) {
+	public void setReceiver(User receiver) {
 		// TODO Auto-generated method stub
 		
 	}
